@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #83a4d4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+  background: linear-gradient(to right, #b6fbff, #83a4d4);
+}
+.wrapper {
+  max-width: 800px;
+  margin: 50px auto;
+}
+.logo {
+  text-align: center;
+  font-size: 4rem;
+  color: #4c6ca0;
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.input {
+  display: inline-block;
+  margin: 0 0 0 20px;
+  padding: 10px;
+  font-size: 1.5 rem;
+  width: 80%;
+  border: 3px solid #4c6ca0;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 10px 20px;
+  font-size: 1.5 rem;
+  color: #fff;
+  width: 18%;
+  border: none;
+  background: #4c6ca0;
+  border-radius: 10px;
+}
+.btn:hover {
+  color: #fff;
+  background: coral;
+}
+
+.todos {
+  margin-top: 25px;
+  border: 3px solid #4c6ca0;
+  margin: 50px 20px 0 20px;
+  border-radius: 10px;
+}
+.todo {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-bottom: 3px dashed #4c6ca0;
+}
+.todo:hover {
+  background: #add8e6;
+}
+.todo:last-child {
+  border-bottom: none;
+}
+
+.error,
+.success {
+  text-align: center;
+  font-size: 1.4rem;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}
+
+.success {
+  color: green;
+  border-color: green;
+}
+
+.delete {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  background: tomato;
+  color: #fff;
+}
+
+.done,
+.undone {
+  text-decoration: none;
+  color: black;
+}
+
+.done {
+  text-decoration: line-through;
+}
